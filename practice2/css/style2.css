@@ -1,0 +1,42 @@
+// ...existing code...
+.practice2-container {
+    width: 760px;
+    margin: 100px auto;
+}
+
+/* 一枚目カードにのみ適用 */
+.practice2-container .card--first {
+    box-shadow: 0 0 6px #eeeeee;
+    display: flex;
+}
+
+.practice2-container .card--first .card__img {
+    width: 40%;
+}
+
+.practice2-container .card--first .card__img img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.practice2-container .card--first .card__content {
+    padding: 15px;
+}
+
+.practice2-container .card--first .card__content-ttl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.practice2-container .card--first .card__content-tag {
+    font-size: 14px;
+    display: inline-block;
+}
+
+.practice2-container .card--first .card__content-tag--red {
+    color: red;
+    margin-left: 40px;
+}
+
+// ...existing code...
